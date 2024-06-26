@@ -5,7 +5,11 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1FA59372-BBF1-4078-837D-1F240390F252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBookProject.Domain", "Core\CarBookProject.Domain\CarBookProject.Domain.csproj", "{BD1E9C46-C915-422C-8D5B-2C70FB70DF30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBookProject.Domain", "Core\CarBookProject.Domain\CarBookProject.Domain.csproj", "{BD1E9C46-C915-422C-8D5B-2C70FB70DF30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3092E24D-5F39-435F-9FC6-7A7E9AAAE0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBookProject.Persistence", "Infrastructure\CarBookProject.Persistence\CarBookProject.Persistence.csproj", "{6860A59A-B162-42F2-ABBC-0AD2904786FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{BD1E9C46-C915-422C-8D5B-2C70FB70DF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1E9C46-C915-422C-8D5B-2C70FB70DF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1E9C46-C915-422C-8D5B-2C70FB70DF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6860A59A-B162-42F2-ABBC-0AD2904786FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6860A59A-B162-42F2-ABBC-0AD2904786FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6860A59A-B162-42F2-ABBC-0AD2904786FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6860A59A-B162-42F2-ABBC-0AD2904786FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BD1E9C46-C915-422C-8D5B-2C70FB70DF30} = {1FA59372-BBF1-4078-837D-1F240390F252}
+		{6860A59A-B162-42F2-ABBC-0AD2904786FF} = {3092E24D-5F39-435F-9FC6-7A7E9AAAE0DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEDA21BB-0834-4C7D-A7DB-491897E31E8C}
