@@ -19,11 +19,11 @@ namespace CarBookProject.Application.Features.CQRS.Handlers.AboutHandlers
         }
         public async Task Handle(UpdateAboutCommand command)
         {
-            var values = await _repository.GetByIdAsync(command.AboutID);
-            values.Description = command.Description;
-            values.ImageUrl = command.ImageUrl;
-            values.Title = command.Title;
-            await _repository.UpdateAsync(values);
+            var value = await _repository.GetByIdAsync(command.AboutID);
+            value.Description = command.Description;
+            value.ImageUrl = command.ImageUrl;
+            value.Title = command.Title;
+            await _repository.UpdateAsync(value);
         }
     }
 }
