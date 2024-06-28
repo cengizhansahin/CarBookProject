@@ -34,7 +34,6 @@ namespace CarBookProject.WebApi.Controllers
         public async Task<IActionResult> GetBanner(int id)
         {
             var value = await _getBannerByIdQueryHandler.Handle(new GetBannerByIdQuery(id));
-            if (value == null) { return NotFound(); }
             return Ok(value);
         }
         [HttpPost]
