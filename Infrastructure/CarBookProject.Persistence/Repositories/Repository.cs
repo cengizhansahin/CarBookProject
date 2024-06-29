@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarBookProject.Persistence.Repositoies
+namespace CarBookProject.Persistence.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class
     {
