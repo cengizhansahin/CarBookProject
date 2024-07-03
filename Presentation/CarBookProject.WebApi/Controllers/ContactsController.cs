@@ -1,6 +1,7 @@
 ﻿using CarBookProject.Application.Features.CQRS.Commands.ContactCommands;
 using CarBookProject.Application.Features.CQRS.Handlers.ContactHandlers;
 using CarBookProject.Application.Features.CQRS.Queries.ContactQueries;
+using CarBookProject.Application.Features.CQRS.Results.ContactResults;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,7 +28,7 @@ namespace CarBookProject.WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> ContactList()
         {
-            var values = await _getContactQueryHandler.Handle();
+            List<GetContactQueryResult> values = await _getContactQueryHandler.Handle();
             return Ok(values);
         }
         [HttpGet("{id}")]
