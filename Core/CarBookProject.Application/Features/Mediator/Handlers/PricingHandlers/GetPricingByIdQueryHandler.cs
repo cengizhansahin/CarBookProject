@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace CarBookProject.Application.Features.Mediator.Handlers.PricingHandlers
 {
-    public class GetPricingByIdQueryHandler : IRequestHandler<GetPricingByIdQuery, GetPricingByIdQueryResult>
+    public class GetServiceByIdQueryHandler : IRequestHandler<GetPricingByIdQuery, GetPricingByIdQueryResult>
     {
         private readonly IRepository<Pricing> _repository;
 
-        public GetPricingByIdQueryHandler(IRepository<Pricing> repository)
+        public GetServiceByIdQueryHandler(IRepository<Pricing> repository)
         {
             _repository = repository;
         }
