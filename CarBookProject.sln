@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBookProject.Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnds", "FrontEnds", "{B05FDAEA-DAEF-468F-9107-182631E810C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBookProject.WebUI", "FrontEnds\CarBookProject.WebUI\CarBookProject.WebUI.csproj", "{74C011F8-C745-4C9B-B2CC-65D90727D02A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBookProject.WebUI", "FrontEnds\CarBookProject.WebUI\CarBookProject.WebUI.csproj", "{74C011F8-C745-4C9B-B2CC-65D90727D02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBookProject.Dto", "FrontEnds\CarBookProject.Dto\CarBookProject.Dto.csproj", "{89BE86FC-75C5-421C-A1E2-1DC85E7329FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{74C011F8-C745-4C9B-B2CC-65D90727D02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74C011F8-C745-4C9B-B2CC-65D90727D02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74C011F8-C745-4C9B-B2CC-65D90727D02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BE86FC-75C5-421C-A1E2-1DC85E7329FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BE86FC-75C5-421C-A1E2-1DC85E7329FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BE86FC-75C5-421C-A1E2-1DC85E7329FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BE86FC-75C5-421C-A1E2-1DC85E7329FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{B40AEDD4-F4C9-4A39-BC3D-97C9A261D35D} = {FA1B643D-9C76-433A-B78C-081383764317}
 		{3D62382E-9563-4DEE-9A04-7D5E9EF7CCC0} = {1FA59372-BBF1-4078-837D-1F240390F252}
 		{74C011F8-C745-4C9B-B2CC-65D90727D02A} = {B05FDAEA-DAEF-468F-9107-182631E810C2}
+		{89BE86FC-75C5-421C-A1E2-1DC85E7329FA} = {B05FDAEA-DAEF-468F-9107-182631E810C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEDA21BB-0834-4C7D-A7DB-491897E31E8C}
