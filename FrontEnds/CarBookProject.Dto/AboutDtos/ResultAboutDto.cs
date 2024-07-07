@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarBookProject.Dto.AbotDtos
+namespace CarBookProject.Dto.AboutDtos
 {
     public class ResultAboutDto
     {

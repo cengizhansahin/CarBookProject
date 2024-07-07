@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace CarBookProject.Application.Features.Mediator.Handlers.SocialMediaHandlers
 {
-    public class GetSocialMediaQueryHandlers : IRequestHandler<GetSocialMediaQuery, List<GetSocialMediaQueryResult>>
+    public class GetTestimonialQueryHandlers : IRequestHandler<GetSocialMediaQuery, List<GetSocialMediaQueryResult>>
     {
         private readonly IRepository<SocialMedia> _repository;
 
-        public GetSocialMediaQueryHandlers(IRepository<SocialMedia> repository)
+        public GetTestimonialQueryHandlers(IRepository<SocialMedia> repository)
         {
             _repository = repository;
         }
