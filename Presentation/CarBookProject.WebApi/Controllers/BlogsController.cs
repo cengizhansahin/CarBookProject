@@ -50,5 +50,10 @@ namespace CarBookProject.WebApi.Controllers
         {
             return Ok(await _mediator.Send(new GetLast3BlogsWithAuthorsQuery()));
         }
+        [HttpGet("GetAllBlogsWithAuthors")]
+        public async Task<IActionResult> GetAllBlogsWithAuthors()
+        {
+            return Ok(await _mediator.Send(new GetAllBlogsWithAuthorsQuery()));
+        }
     }
 }
