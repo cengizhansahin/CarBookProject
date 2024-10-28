@@ -1,5 +1,6 @@
 ﻿using CarBookProject.Dto.BlogDtos;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Build.Construction;
 using Newtonsoft.Json;
 
 namespace CarBookProject.WebUI.Controllers
@@ -25,6 +26,12 @@ namespace CarBookProject.WebUI.Controllers
                 var values = JsonConvert.DeserializeObject<List<ResultAllBlogsWithAuthorsDto>>(jsonData);
                 return View(values);
             }
+            return View();
+        }
+        public async Task<IActionResult> BlogDetail(int id)
+        {
+            ViewBag.v1 = "Bloglar";
+            ViewBag.v2 = "Blog Detayı ve Yorumlar";
             return View();
         }
     }
